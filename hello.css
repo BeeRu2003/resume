@@ -1,0 +1,55 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: left;
+	align-items: left;
+}
+.full {
+	/*width: 50%;
+	max-width: 100px;
+	min-height: 100px;*/
+	background-color: rgb(245, 239, 231);
+    margin-left: 0px;
+    border-left-color: burlywood;
+	display:grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position:initial;
+	background-color: rgb(243, 149, 255);
+	padding: 50px;
+    color:rgb(247, 94, 6) ;
+    
+
+}
+.right {
+	position:relative;
+	background-color: rgb(246, 73, 73);
+	padding: 30px;
+    
+}
+.image, .Contact, .Skills, .Language, .Hobbies, .title, 
+.Summary, .Education, .projects {
+	margin-bottom: 30px;
+   
+}
+.h2 {
+	background-color: rgb(233, 121, 1);
+    
+}
+.image{
+    border-radius: 50%;
+}
+.Contact,.Skills,.Language,.Hobbies{
+    color: rgb(26, 16, 16);
+    background-blend-mode: multiply;
+}
+.Education,.Summary,.projects{
+    color:rgb(8, 230, 145);
+}
